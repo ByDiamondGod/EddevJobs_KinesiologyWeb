@@ -1,8 +1,22 @@
+//? Base
+@import "base/reset";
+@import "base/typography";
+
+//? Components
+@import "components/card";
+@import "components/hero";
+@import "components/info";
+@import "components/slider";
+
+//?  Layout
+@import "layout/footer";
+@import "layout/header";
+
+//? Pages
+@import "pages/index";
+
 //? Utilities
 @import "utilities/effects";
 @import "utilities/mixins";
 @import "utilities/variables";
-
-//? Base
-@import "base/reset";
-@import "base/typography";
+@import "utilities/icon";
