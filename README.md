@@ -1,49 +1,15 @@
-# Crear proyecto SASS + VITE
+# Diseño y desarrollo completo
 
-## Agregar en la terminal
+Servicio Premium
 
-### Paso 1:
+Contratado por: Florencia Vazquez
+Tipo: Salud Kinesiologia
 
-``` sh
-npm create vite@latest .
-```
-- Nombre de la carpeta
-- Vanilla
-- JavaScript
+### Diseño
+- Tecnicas: (UX - Technical Writting - Humans)
 
-### Paso 2:
+https://www.figma.com/file/vcTDl7mT9HCyEuFEqQ3X1Q/Flor-Consultorio-Oficial?type=design&node-id=3%3A97&mode=design&t=fcT0Zh85u2xPkyJW-1
 
-``` sh
-npm i
-```
 
-### Paso 3:
-
-``` sh
-npm i -d sass
-```
-
-### Paso 4:
-
-Borrar archivos por defecto vite
-
-counter.js
-javascript.svg
-style.css
-main.js
-public/vite.svg
-
-### Paso 5:
-
-mkdir -p public/img sass/{base,components,layout,pages,themes,utilities,vendors} src/views
-touch sass/main.scss src/main.js
-
-### Paso 6:
-
-Cambiar la ruta del index.html la parte de scr/main.js
-
-### Paso 7:
-
-``` sh
-npm run dev
-```
+### Desarrollo
+Tecnologias: HTML - SASS - VITE
