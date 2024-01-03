@@ -14,19 +14,85 @@
 </head>
 
 <body>
-  <header>
-    <h1>Hola</h1>
-    <p>prueba de texto</p>
-  </header>
-  <main>
-    <img class="icon-color" src="/img/svg/wp.svg">
-    <img class="icon-color" src="/img/svg/pin.svg">
-    <img class="icon-color" src="/img/svg/video.svg">
-    <img class="icon-color" src="/img/svg/pic.svg">
-  </main>
-<footer>
 
-</footer>
+  <header class="header" id="header">
+
+    <nav class="nav container">
+      <a href="#">
+        <img class="nav__logo" src="/img/webp/logoFV-2.webp" alt="logoFV">
+      </a>
+
+      <div class="nav__menu" id="nav-menu " >
+
+        <ul class="nav__list">
+
+          <li class="nav__item">
+            <a class="nav__link active-link" href="#inicio">
+              <img class="nav__icon" id="nav-icon" src="/img/svg/inicio.svg">
+              <span class="nav__text">Inicio</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link " href="#tratamientos">
+              <img class="nav__icon" id="nav-icon" src="/img/svg/tratamientos.svg">
+              <span class="nav__text">Tratamientos</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#sesiones">
+              <img class="nav__icon" id="nav-icon" src="/img/svg/info.svg">
+              <span class="nav__text">Sesiones</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#turnos">
+              <img class="nav__icon" id="nav-icon" src="/img/svg/turnos.svg">
+              <span class="nav__text">Turnos</span>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#ubicacion">
+              <img class="nav__icon" id="nav-icon" src="/img/svg/pin.svg">
+              <span class="nav__text">Ubicación</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="div-close"></div>
+
+    </nav>
+  </header>
+
+  <main>
+    <section class="container section-main section-main__height" id="inicio">
+      <h1>Florencia <span>
+        Vazquez
+      </span>
+    </h1>
+    </section>
+    <section class="container section-main section-main__height" id="tratamientos">
+      <h2 class="section__title" >Tratamientos</h2>
+    </section>
+    <section class="container section-main section-main__height" id="sesiones">
+      <h2 class="section__title">Tu primera sesión</h2>
+    </section>
+    <section class="container section-main section-main__height" id="turnos">
+      <h2 class="section__title">Turnos</h2>
+    </section>
+    <section class="container section-main section-main__height" id="ubicacion">
+      <h2 class="section__title">Ubicación</h2>
+    </section>
+
+
+
+  </main>
+  <footer>
+
+  </footer>
   <script type="module" src="src/main.js"></script>
 </body>
 

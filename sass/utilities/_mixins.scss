@@ -1,1 +1,16 @@
-@use "variables" as var;
+@import './variables';
+
+@mixin title {
+  .section {
+    
+    &__title {
+      width: 100%;
+      font-weight: 700;
+      text-align: center;
+      background-color: $secondary-color-1;
+      margin-bottom: 3rem;
+      padding: 2.2rem;
+      color: #222
+    }
+  }
+}

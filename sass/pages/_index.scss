@@ -1,0 +1,27 @@
+@use '../utilities/mixins' as mixins;
+
+@include mixins.title;
+
+.container {
+  max-width: 968px;
+}
+
+.section-main {
+  // padding: 7rem 0 2rem;
+
+  &__height {
+    height: 100vh;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) {
+
+  .container {
+    max-width: none;
+  }
+
+  .section-main {
+    padding: 5rem 0 2rem;
+  }
+}
