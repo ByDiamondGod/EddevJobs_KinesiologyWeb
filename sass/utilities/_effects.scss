@@ -1,8 +1,9 @@
 body::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
+  // background: #d8e2dc;
 }
 body::-webkit-scrollbar-thumb {
-  background: #befab3;
+  background: #666;
 }
 ::selection {
   background: #e7e7e73a;

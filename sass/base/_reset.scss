@@ -24,9 +24,11 @@ ul {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 img, svg, video {
     max-width: 100%;
     display: block;
+    height: auto;
 }

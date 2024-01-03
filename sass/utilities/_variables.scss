@@ -1,13 +1,14 @@
 // Colors
 $primary-color: #BA006D;
-$secundary-color-1: #D8E2DC;
-$secundary-color-2: #D7F4D2;
-$secundary-color-3: #5A8645;
+$secondary-color-1: #D8E2DC;
+$secondary-color-2: #D7F4D2;
+$secondary-color-3: #5A8645;
 
 // Background
 $background-color: #ebebeb;
 
 // Fonts
 $font-size-title: clamp(18px, 2.5vw, 30px);
+$font-size-title-2: clamp(24px, 2.5vw, 30px);
 $font-size-title-p: clamp(15px, 2vw, 25px);
-$font-size-p: clamp(12px, 1vw, 14px);
+$font-size-p: clamp(12px, 1.8vw, 16px);

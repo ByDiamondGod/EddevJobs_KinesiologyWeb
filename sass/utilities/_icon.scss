@@ -1,4 +1,10 @@
-.icon-color {
+.nav__icon {
+  width: 28px;
+  height: auto;
+  display: inline;
+}
+
+.icon-color-2 {
   width: 50px;
   height: 50px;
   filter: invert(44%) sepia(18%) saturate(1074%) hue-rotate(56deg) brightness(102%) contrast(88%);
