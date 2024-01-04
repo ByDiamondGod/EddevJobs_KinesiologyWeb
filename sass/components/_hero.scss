@@ -1,0 +1,132 @@
+@import '../utilities/variables';
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: clamp(300px, 80%, 1280px);
+    max-width: 1280px;
+    margin: 140px auto 0;
+    gap: 4rem;
+}
+
+.main-text {
+    height: 350px;
+    margin-bottom: 2rem;
+    width: 470px;
+}
+
+.main-image {
+    width: 300px;
+}
+
+.hero {
+    &__title {
+        font-size: $font-size-title;
+        margin: 1rem 2rem 0;
+        color: #0b2e29;
+        letter-spacing: 0.6px;
+    }
+
+    &__title-2 {
+        color: $primary-color;
+    }
+
+    &__description {
+        text-wrap: balance;
+        margin: 1rem 2rem 0;
+        letter-spacing: 0.4px;
+        font-size: $font-size-title-p;
+    }
+
+    &__button-wrap {
+        margin: 1.5rem 2rem 0;
+    }
+
+    &__button {
+        font-size: $font-size-title-p;
+        padding: 1rem 2rem;
+        margin-right: 1.5rem;
+        border-radius: 999px;
+        border: 1px solid $primary-color;
+        background-color: $primary-color;
+        color: #fff;
+        width: 173px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+
+    &__button:hover {
+        transform: scale(1.04);
+        transition: 0.3s;
+    }
+
+    &__button--white {
+        color: $primary-color;
+        background-color: #fff;
+    }
+
+    &__rectangle {
+        position: relative;
+        padding: 1.5rem;
+        background-color: #fdfdfd;
+        z-index: 10;
+        bottom: 3rem;
+        border-radius: 10px;
+        text-align: center;
+        text-wrap: balance;
+        box-shadow: 5.5px 5.5px 10px rgba(0, 0, 0, 0.15);
+        font-size: 1.1rem;
+    }
+    &__image {
+        transform: scale(1.2);
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .hero {
+        width: clamp(350px, 100%, 800px);
+
+        &__description {
+            width: 350px;
+            text-wrap: balance;
+            margin: 1rem auto 0;
+        }
+    }
+
+    .container-main {
+        flex-direction: column;
+        margin: 4rem auto 0;
+        text-align: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .main-image {
+        width: 250px;
+    }
+
+    .main-text {
+        margin: 0;
+    }
+
+    .hero__button-wrap {
+        margin: 0 auto;
+    }
+
+    .hero__button {
+        padding: 1rem 1rem;
+        width: 126px;
+        margin: 1.5rem 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .hero__description {
+          width: 320px;
+      }
+
+}
