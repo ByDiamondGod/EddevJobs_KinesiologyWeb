@@ -1,23 +1,28 @@
 @use '../utilities/mixins' as mixins;
 
+@include mixins.title;
+
 .container {
   margin: 0 auto
 }
 
-@include mixins.title;
-
-.section-main {
-  // padding: 7rem 0 2rem;
-
-  &__height {
-    height: 100vh;
+.section-height {
+    height: 87vh;
     display: block;
   }
-}
+
+  .section-height-2 {
+    height: 100vh
+  }
+
 
 @media screen and (min-width: 769px) {
 
   .section-main {
+    padding: 5rem 0 0;
+  }
+
+  .section-main-2 {
     padding: 5rem 0 2rem;
   }
 }

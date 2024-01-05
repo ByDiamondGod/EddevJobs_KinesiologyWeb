@@ -1,6 +1,6 @@
 @import '../utilities/variables';
 
-.container-main {
+.container-middle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@
         }
     }
 
-    .container-main {
+    .container-middle {
         flex-direction: column;
         margin: 4rem auto 0;
         text-align: center;
