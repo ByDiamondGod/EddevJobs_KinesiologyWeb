@@ -10,6 +10,7 @@
   <meta name="author" content="">
   <meta name="copyright" content="EddevJobs">
   <link rel="icon" href="img/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <title>Turnos Kinesiologia - Florencia Vazquez</title>
 </head>
 
@@ -88,7 +89,7 @@
             mi enfoque en una kinesiología en permanente crecimiento.
           </p>
           <div class="hero__button-wrap">
-            <a href="https://bydiamondgod.github.io/">
+            <a href="https://bydiamondgod.github.io/" target="_blank">
               <button class="hero__button hero__button--magent">TURNO</button>
             </a>
             <a href="#sesiones">
@@ -109,7 +110,7 @@
       <h2 class="section-main__title">Tratamientos</h2>
       <div class="tratamientos">
         <video class="tratamientos__video" src="/video/video.mp4" alt="tratamientos" controls
-          controlslist="nodownload noremoteplayback" preload="auto" poster="/img/webp/terapia-manual.webp"> </video>
+          controlslist="nodownload noremoteplayback" preload="auto" poster="/img/webp/fotoFV.webp"> </video>
 
         <div class="tratamientos__card">
           <img src="/img/webp/terapia-manual.webp" alt="terapia" class="tratamientos__image">
@@ -118,7 +119,7 @@
             <p class="tratamientos__description">
               Esta emplea técnicas manuales como masajes, movilización articular y manipulación espinal para tratar y
               prevenir lesiones musculoesqueléticas, buscando mejorar la función y reducir el dolor de manera
-              personalizada para cada paciente.
+              personalizada para cada paciente. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             </p>
             <div class="tratamientos__container-icon">
               <div class="tratamientos__icon">
@@ -137,7 +138,8 @@
             <h3 class="tratamientos__title">Microelectrolisis percutanea</h3>
             <p class="tratamientos__description">
               Es una técnica que usa corriente galvánica mediante una aguja de acupuntura para lograr analgesia,
-              regeneración del tejido y normalización del pH local. Su uso ha demostrado obtener resultados efectivos en patologías que otros métodos
+              regeneración del tejido y normalización del pH local. Su uso ha demostrado obtener resultados efectivos en
+              patologías que otros métodos
               no pueden solucionar.
             </p>
             <div class="tratamientos__container-icon">
@@ -179,7 +181,8 @@
             <h3 class="tratamientos__title">Acupuntura</h3>
             <p class="tratamientos__description">
               Es parte de la medicina tradicional china, usa agujas en puntos corporales específicos para equilibrar la
-              energía vital en los meridianos, buscando restaurar el equilibrio energético. Se aplica para tratar problemas musculares, trastornos digestivos, ansiedad y estrés.
+              energía vital en los meridianos, buscando restaurar el equilibrio energético. Se aplica para tratar
+              problemas musculares, trastornos digestivos, ansiedad y estrés.
             </p>
             <div class="tratamientos__container-icon">
               <div class="tratamientos__icon">
@@ -191,14 +194,15 @@
             </div>
           </div>
         </div>
-        
+
         <div class="tratamientos__card">
           <img src="/img/webp/taping.webp" alt="taping" class="tratamientos__image">
           <div class="tratamientos__body">
             <h3 class="tratamientos__title">Taping</h3>
             <p class="tratamientos__description">
               Es una técnica complementaria a otros tratamientos, aplicada en el sistema musculoesquelético, adaptada a
-              objetivos terapéuticos individuales. Se usa para tratar lesiones musculares, tendinosas y ligamentarias, así como para influir en
+              objetivos terapéuticos individuales. Se usa para tratar lesiones musculares, tendinosas y ligamentarias,
+              así como para influir en
               el sistema linfático.
             </p>
             <div class="tratamientos__container-icon">
@@ -213,19 +217,37 @@
         </div>
       </div>
     </section>
-    <section class="section-main section-height" id="sesiones">
-      <h2 class="section-main__title">Tu primera sesión</h2>
-      <div class="container-middle">
-
+    <section class="section-sesion section-height-2" id="sesiones">
+      <h2 class="section-main__title-2">Tu primera sesión</h2>
+      <p class="section-main__paragraph">¿Como sera?</p>
+      <div class="container-slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img id="slide-pc" src="/img/webp/ppt1.webp" alt="presentacion1">
+              <img id="slide-mobile" src="/img/webp/ppt1-mobile.webp" alt="presentacion1">
+            </div>
+            <div class="swiper-slide">
+              <img id="slide-pc" src="/img/webp/ppt2.webp" alt="presentacion2">
+              <img id="slide-mobile" src="/img/webp/ppt2-mobile.webp" alt="presentacion2">
+            </div>
+            <div class="swiper-slide">
+              <img id="slide-pc" src="/img/webp/ppt3.webp" alt="presentacion3">
+              <img id="slide-mobile" src="/img/webp/ppt3-mobile.webp" alt="presentacion3">
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
     </section>
-    <section class="section-main section-height" id="turnos">
+
+    <section class="section-height" id="turnos">
       <h2 class="section-main__title">Turnos</h2>
-      <div class="container-middle">
 
-      </div>
     </section>
-    <section class="section-main-2 section-height-2" id="ubicacion">
+    <section class="section-main section-height" id="ubicacion">
       <h2 class="section-main__title">Ubicación</h2>
       <div class="container-middle">
 
@@ -236,6 +258,22 @@
   <footer>
 
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   <script type="module" src="src/main.js"></script>
 </body>
 

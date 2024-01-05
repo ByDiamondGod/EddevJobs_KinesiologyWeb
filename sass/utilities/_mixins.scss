@@ -10,7 +10,29 @@
       background-color: $secondary-color-1;
       margin-bottom: 3rem;
       padding: 2.2rem;
-      color: #222
+      color: #222;
+      letter-spacing: .4px;
+    }
+
+    &__title-2 {
+      width: 100%;
+      font-weight: 700;
+      text-align: center;
+      background-color: $secondary-color-1;
+      padding: 2.2rem 0 .6rem ;
+      color: #222;
+      letter-spacing: .6px;
+    }
+    
+    &__paragraph {
+      font-size: 18px;
+      width: 100%;
+      font-weight: 400;
+      text-align: center;
+      background-color: $secondary-color-1;
+      padding: 0 0 2.2rem;
+      color: #222;
+      letter-spacing: .4px;
     }
   }
 }
