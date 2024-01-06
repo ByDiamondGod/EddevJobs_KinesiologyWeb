@@ -30,3 +30,16 @@ window.addEventListener('scroll', scrollActive)
      if(this.scrollY >= 70) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
  }
  window.addEventListener('scroll', scrollHeader) */
+
+
+ 
+/*  let myVideo = document.getElementById("myVideo");
+
+ window.playVideo = function(file) {
+    myVideo.src = file
+} */
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var miVideo = document.getElementById('miVideo');
+    miVideo.controlsList = "nodownload noremoteplayback";
+  });

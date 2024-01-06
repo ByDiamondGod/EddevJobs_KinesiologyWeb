@@ -1,5 +1,5 @@
 .turnos {
-  margin: 1rem;
+    margin: 1rem;
     .slider-container {
         width: 100%;
         display: grid;
@@ -18,7 +18,7 @@
         display: flex;
         padding: 0;
         width: 900%; /* Puse 900 porque son 9 imagenes */
-        animation: slide 40s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
+        animation: slide 30s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
     }
 
     @keyframes slide {
@@ -112,10 +112,28 @@
 
 @media screen and (max-width: 500px) {
     .turnos .slider-frame {
-      height: 300px;
-  
+        height: 300px;
+
         &__image {
             height: 300px;
+        }
+    }
+
+    .turnos .slider-frame ul {
+        animation: slide 60s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
+    }
+
+    @keyframes slide {
+        0% {
+            margin-left: 0;
+        }
+
+        50% {
+            margin-left: -500%;
+        }
+
+        100% {
+            margin-left: -770%;
         }
     }
 }
