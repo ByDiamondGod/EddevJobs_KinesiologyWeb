@@ -1,0 +1,27 @@
+.container-slider-2 {
+    margin: 4rem auto 0;
+    width: clamp(300px, 100%, 700px);
+}
+
+.swiper-2 {
+    width: 100%;
+    height: 570px;
+}
+
+.carousel-ubicacion__image {
+    margin: 0 auto;
+    box-shadow: 1px 10px 23px -2px rgba(0, 0, 0, 0.068);
+    border: 1px solid rgba(68, 68, 68, 0.3568627451);
+}
+
+@media screen and (max-width: 1030px) {
+    .container-slider-2 {
+        margin: 4rem auto 0;
+        width: clamp(350px, 100%, 800px);
+        padding: 0 1rem 5rem;
+    }
+
+    .swiper-2 {
+        height: 80vw;
+    } // para los botones de abajo es importante el height, con esto hace que quede pegado siempre ese tamaño el 80 de ancho de vision
+}

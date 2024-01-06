@@ -109,7 +109,8 @@
     <section class="section-main" id="tratamientos">
       <h2 class="section-main__title">Tratamientos</h2>
       <div class="tratamientos">
-        <video id="miVideo" class="tratamientos__video" src="/video/video.mp4" controls preload="auto" poster="/img/webp/fotoFV.webp"> </video>
+        <video id="miVideo" class="tratamientos__video" src="/video/video.mp4" controls preload="auto"
+          poster="/img/webp/fotoFV.webp"> </video>
 
         <div class="tratamientos__card">
           <img src="/img/webp/terapia-manual.webp" alt="terapia" class="tratamientos__image">
@@ -118,7 +119,7 @@
             <p class="tratamientos__description">
               Esta emplea técnicas manuales como masajes, movilización articular y manipulación espinal para tratar y
               prevenir lesiones músculo-esqueléticas, buscando mejorar la función y reducir el dolor de manera
-              personalizada para cada paciente. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+              personalizada para cada paciente. Siendo el mas conocido en la kinesiología.
             </p>
             <div class="tratamientos__container-icon">
               <div class="tratamientos__icon">
@@ -273,9 +274,23 @@
     </section>
     <section class="section-main section-height-2" id="ubicacion">
       <h2 class="section-main__title">Ubicación</h2>
-      <div class="container-middle">
 
-      </div>
+        <div class="container-slider-2">
+          <div class="swiper mySwiper2 swiper-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="carousel-ubicacion__image" src="/img/webp/consultorio-1.webp" alt="consultorio-1">
+              </div>
+              <div class="swiper-slide swiper-slide-center">
+                <img class="carousel-ubicacion__image" src="/img/webp/consultorio-2.webp" alt="consultorio-2">
+              </div>
+              <div class="swiper-slide">
+                <img class="carousel-ubicacion__image" src="/img/webp/consultorio-3.webp" alt="consultorio-3">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
     </section>
 
   </main>
@@ -295,6 +310,17 @@
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
     });
   </script>
