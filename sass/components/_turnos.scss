@@ -120,7 +120,7 @@
     }
 
     .turnos .slider-frame ul {
-        animation: slide 60s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
+        animation: slide 40s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
     }
 
     @keyframes slide {
@@ -128,12 +128,8 @@
             margin-left: 0;
         }
 
-        50% {
-            margin-left: -500%;
-        }
-
         100% {
-            margin-left: -770%;
+            margin-left: -730%;
         }
     }
 }
