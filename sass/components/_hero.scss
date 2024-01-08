@@ -60,7 +60,7 @@
 
     &__button:hover {
         transform: scale(1.04);
-        transition: 0.3s;
+        transition: transform 0.2s ease-in-out;
     }
 
     &__button--white {
@@ -124,9 +124,7 @@
 }
 
 @media screen and (max-width: 400px) {
-
     .hero__description {
           width: 320px;
       }
-
 }

@@ -5,7 +5,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    // background-color: $secondary-color-1;
     z-index: 100;
     transition: 0.4s;
 }
@@ -15,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    margin-left: .7rem;
+    margin-left: 0.7rem;
 
     &__logo {
         width: 80px;
@@ -47,29 +46,18 @@
 }
 
 /* Style with JS */
-
 // Esto hace cambiar el color del texto y svg al moverse cambia de color por distintas secciones con la funcion de JS scrollActive
 .active-link {
     position: relative;
     transition: 0.3s;
-    filter: invert(42%) sepia(58%) saturate(391%) hue-rotate(68deg) brightness(96%) contrast(88%);
+    filter: invert(42%) sepia(58%) saturate(391%) hue-rotate(68deg)
+        brightness(96%) contrast(88%);
 }
-
 
 // Al hacer scroll, este hace que haga un sombreado debajo del header, con la funcion de JS scrollHeader
 .scroll-header {
     box-shadow: 0 -1px 12px hsla(174, 63%, 15%, 0.15);
 }
-
-
-/*
-// dropdown menu
-.nav__item {
-
-    .dropdown-menu {
-        display: none;
-    }
-  } */
 
 // phone get down
 @media screen and (max-width: 768px) {
@@ -100,11 +88,11 @@
         }
     }
 
-    // bullet down 
+    // bullet down
     .active-link::before {
-        content: "";
+        content: '';
         position: absolute;
-        bottom: -.60rem;
+        bottom: -0.6rem;
         width: 4px;
         height: 4px;
         background-color: #30650f;
@@ -123,11 +111,9 @@
 }
 
 @media screen and (min-width: 769px) {
-
     .header {
         // background-color: $background-color;
         background-color: $secondary-color-1;
-        
     }
 
     .div-close {
@@ -149,64 +135,22 @@
         .div-close {
             display: none;
         }
-
     }
-
 
     // Bullet pelota debajo del texto del header
     .active-link::before {
-        content: "";
+        content: '';
         position: absolute;
-        bottom: -.60rem;
+        bottom: -0.6rem;
         width: 4px;
         height: 4px;
         background-color: #30650f;
         border-radius: 50%;
     }
-
-// dropdown menu
-/* .nav__item {
-    position: relative;
-
-    .dropdown-menu {
-      position: absolute;
-      top: 60px;
-      left: -80px;
-      display: none;
-      background-color: $secondary-color-1;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      border-radius: 2%;
-
-      &__list {
-        display: flex;
-        justify-self: center;
-        align-items: center;
-        list-style: none;
-        padding: 1rem;
-        margin: 0;
-        margin-left: 1rem;
-      }
-
-      a {
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-        color: #333;
-
-        &:hover {
-          background-color: #f0f0f0;
-        }
-      }
-    }
-
-    &:hover .dropdown-menu {
-      display: block;
-    }
-  } */
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
     .container {
-        margin: 0 auto
+        margin: 0 auto;
     }
 }

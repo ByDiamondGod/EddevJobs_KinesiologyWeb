@@ -2,7 +2,7 @@
 
 @mixin title {
   .section-main {
-    
+
     &__title {
       width: 100%;
       font-weight: 700;
@@ -23,7 +23,7 @@
       color: #222;
       letter-spacing: .6px;
     }
-    
+
     &__paragraph {
       font-size: 18px;
       width: 100%;

@@ -3,34 +3,28 @@
 @include mixins.title;
 
 .container {
-  margin: 0 auto
+    margin: 0 auto;
 }
 
 .container-middle-2 {
-  margin-top: 4rem;
+    margin-top: 4rem;
 }
 
 .section-height {
     height: 87vh;
     display: block;
-  }
+}
 
-  .section-height-2 {
-    height: 100vh
-  }
-
-  .section-sesion {
+.section-sesion {
     margin: 4rem 0;
-  }
+}
 
 @media screen and (min-width: 769px) {
+    .section-main {
+        padding: 5rem 0 0;
+    }
 
-  .section-main {
-    padding: 5rem 0 0;
-  }
-
-  .section-main-2 {
-    padding: 5rem 0 2rem;
-    
-  }
+    .section-main-2 {
+        padding: 5rem 0 2rem;
+    }
 }
