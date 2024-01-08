@@ -1,0 +1,110 @@
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+
+    &__map {
+        border-radius: 0 0 10px 10px;
+        box-shadow: 1px 10px 23px -2px rgba(0, 0, 0, 0.068);
+    }
+
+    &__map-pc {
+        display: block;
+    }
+
+    &__map-mobile {
+        display: none;
+    }
+}
+
+.contact-info {
+    padding: 2.2rem 2rem;
+    background-color: $secondary-color-1;
+    border-radius: 2%;
+    margin: 2rem;
+    width: 350px;
+    height: 460px;
+}
+
+.contact-container {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.contact-icons {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px 0 26px;
+    background: $secondary-color-2;
+    border-radius: 16px;
+}
+
+.contact-text__h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-decoration: double;
+    margin-bottom: 4px;
+}
+
+.contact-text__p {
+    width: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-wrap: balance;
+}
+
+.contact-svg {
+    filter: invert(50%) sepia(10%) saturate(1970%) hue-rotate(57deg)
+        brightness(92%) contrast(87%);
+    margin: 14px auto 0;
+    width: 32px;
+    height: 32px;
+}
+
+.contact-svg-2 {
+    filter: invert(50%) sepia(10%) saturate(1970%) hue-rotate(57deg)
+        brightness(92%) contrast(87%);
+    margin: 14px auto 0;
+    width: 34px;
+    height: 34px;
+}
+
+.contact-svg-3 {
+    filter: invert(0%) sepia(100%) saturate(20%) hue-rotate(297deg)
+    brightness(99%) contrast(104%);
+    width: 96px;
+    height: auto;
+}
+
+.contact-container-train {
+    width: 236px;
+    padding: 1.5rem 0.8rem;
+    background-color: #fff;
+    border-radius: 15%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.015);
+}
+
+.contact-description {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 640px) {
+    .ubicacion {
+        &__map-pc {
+            display: none;
+        }
+
+        &__map-mobile {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
