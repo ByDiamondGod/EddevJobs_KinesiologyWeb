@@ -48,7 +48,8 @@
 
 -   **Optimización de Carga y Velocidad:**
 
-        Obteniendo 95+/100 puntos en Lighthouse (Rendimiento, Accesibilidad, Prácticas recomendadas, SEO).
+        Obteniendo 95+/100 puntos en Lighthouse (Rendimiento, Accesibilidad, Prácticas recomendadas, SEO)
+        Listo para cargar contenido de manera rápida, incluso en conexiones de red lentas como 3G.
 
 -   **Mapa de Google + Facilidad de descubrimiento:**
 
@@ -74,6 +75,11 @@
 
         Se implementó la metodología Kanban para la gestión eficiente de tareas y seguimiento del progreso en tiempo real, para el cliente y desarrollador.
 
-## Diseño (Wireframe Figma UI)
+## Diseño (UI)
 
 -   [Wireframe Consultorio Figma](https://www.figma.com/file/vcTDl7mT9HCyEuFEqQ3X1Q/Flor-Consultorio-Oficial?type=design&node-id=3%3A97&mode=design&t=fcT0Zh85u2xPkyJW-1)
+
+## Pagina Web
+No es el link oficial, debido a consideraciones de privacidad de mi cliente. (El video no es el original)
+
+-   [Consultorio Kinesiologia](https://kinesiologia-eddev.netlify.app/)
