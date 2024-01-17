@@ -75,6 +75,14 @@ Listo para cargar contenido de manera rápida, incluso en conexiones de red lent
 
 - Se implementó la metodología Kanban para la gestión eficiente de tareas y seguimiento del progreso en tiempo real, para el cliente y desarrollador.
 
+#### 13 - **SASS patrón 7–1:**
+
+- Aplicando el estándar de proyectos grandes, siendo mas ordenado.
+
+#### 14 - **Nomenclatura BEM:**
+
+- Al utilizar SASS, esta metodología hace una estructura de código más clara y sostenible.
+
 ## Diseño (UI)
 
 -   [Wireframe Consultorio Figma](https://www.figma.com/file/vcTDl7mT9HCyEuFEqQ3X1Q/Flor-Consultorio-Oficial?type=design&node-id=3%3A97&mode=design&t=fcT0Zh85u2xPkyJW-1)
