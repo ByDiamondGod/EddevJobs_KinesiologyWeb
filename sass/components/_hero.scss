@@ -13,8 +13,8 @@
 
 .main-text {
     height: 350px;
-    margin-bottom: 2rem;
-    width: 470px;
+    margin-bottom: 1rem;
+    width: 490px;
 }
 
 .main-image {
@@ -58,6 +58,11 @@
         cursor: pointer;
     }
 
+    .hero__p-m {
+        margin-top: 4px;
+        font-size: 13px;
+    }
+
     &__button:hover {
         transform: scale(1.04);
         transition: transform 0.2s ease-in-out;
@@ -70,7 +75,7 @@
 
     &__rectangle {
         position: relative;
-        padding: 1.5rem;
+        padding: 1rem 1.5rem;
         background-color: #fdfdfd;
         z-index: 10;
         bottom: 3rem;
@@ -125,6 +130,6 @@
 
 @media screen and (max-width: 400px) {
     .hero__description {
-          width: 320px;
-      }
+        width: 270px;
+    }
 }
