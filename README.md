@@ -4,7 +4,7 @@
 
 -   **Cliente:** Florencia Vázquez
 -   **Tipo:** Salud (Kinesiología)
--   **Edición:** Premium Exprés | Servicio Web Completo
+-   **Edición:** Premium Express | Servicio Web Completo
 -   **Estilo:** Minimalista
 -   **Documentación:** Completa
 
@@ -22,64 +22,65 @@
 -   **JavaScript**
 -   **VITE**
 
-## Enfoque de Desarrollo
 
-### Técnicas Utilizadas
 
--   **Responsive Desing:**
+## Técnicas y Herramientas Utilizadas
 
-        Adaptable a diversas resoluciones de pantalla, garantizando una experiencia visual óptima.
+#### 1 - **Responsive Desing:**
 
--   **Minimalist Desing:**
+- Adaptable a diversas resoluciones de pantalla, garantizando una experiencia visual óptima.
 
-        Al ingresar en un dispositivo celular o tablet, si el tamaño de la pantalla es igual o menor a 768px, el estilo de la web se convierte en una App
+#### 2 -  **Minimalist Desing:**
 
--   **UX:**
+- Al ingresar en un dispositivo celular o tablet, si el tamaño de la pantalla es igual o menor a 768px, el estilo de la web se convierte en una App
 
-        Se priorizó la experiencia del usuario para garantizar una navegación intuitiva y amigable, siendo accesible para personas adultas y mayores.
+#### 3 -  **UX:**
 
--   **Texto Adaptable:**
+- Se priorizó la experiencia del usuario para garantizar una navegación intuitiva y amigable, siendo accesible para personas adultas y mayores.
 
-        Ajuste dinámico según el tamaño de la pantalla.
+#### 4 - **Texto Adaptable:**
 
--   **Imágenes Optimizadas WebP:**
+- Ajuste dinámico según el tamaño de la pantalla.
 
-        Optimización de imágenes en formato WebP para una carga rápida sin comprometer la calidad visual.
+#### 5 - **Imágenes Optimizadas:**
 
--   **Optimización de Carga y Velocidad:**
+- Optimización de imágenes en formato WebP para una carga rápida sin comprometer la calidad visual.
 
-        Obteniendo 95+/100 puntos en Lighthouse (Rendimiento, Accesibilidad, Prácticas recomendadas, SEO)
-        Listo para cargar contenido de manera rápida, incluso en conexiones de red lentas como 3G.
+#### 6 - **Optimización de Carga y Velocidad:**
 
--   **Mapa de Google + Facilidad de descubrimiento:**
+- Obteniendo 95+/100 puntos en Lighthouse (Rendimiento, Accesibilidad, Prácticas recomendadas, SEO)
+Listo para cargar contenido de manera rápida, incluso en conexiones de red lentas como 3G.
 
-        Integración de un mapa de Google para brindar la ubicación exacta. Además se especifica una estación de tren para facilitar la llegada del paciente.
+#### 7 - **Mapa de Google + Facilidad de Descubrimiento:**
 
--   **Nexo/Intermediario de Turnos:**
+- Integración de un mapa de Google para brindar la ubicación exacta. Además se especifica una estación de tren para facilitar la llegada del paciente.
 
-        Se realiza esta página con la idea de ser un CTA (Call to Action / Llamado de acción) Con el objetivo principal de poder sacar turnos ágilmente y poder así obtener más pacientes de forma efectiva 24/7.
+#### 8 -  **Nexo/Intermediario de Turnos:**
 
--   **SEO:**
+- Se realiza esta página con la idea de ser un CTA (Call to Action / Llamado de acción) Con el objetivo principal de poder sacar turnos ágilmente y poder así obtener más pacientes de forma efectiva 24/7.
 
-        Potenciando la visibilidad del sitio en los motores de búsqueda.
+#### 9 -  **SEO:**
 
--   **Technical Writing:**
+- Potenciando la visibilidad del sitio en los motores de búsqueda.
 
-        El texto de la página + la documentación del proyecto se encuentra completa y detallada para el cliente, facilitando el entendimiento y legibilidad desde el comienzo del desarrollo.
+#### 10 - **Technical Writing:**
 
--   **Enfoque en Usuarios (Humans):**
+- El texto de la página + la documentación del proyecto se encuentra completa y detallada para el cliente, facilitando el entendimiento y legibilidad desde el comienzo del desarrollo.
 
-        El diseño se centró en satisfacer las necesidades y expectativas de los pacientes, sintiéndose así identificados y siendo parte del consultorio.
+#### 11 - **Enfoque en Usuarios:**
 
--   **Kanban:**
+- El diseño se centró en satisfacer las necesidades y expectativas de los pacientes, agregando imágenes de humanos ficticios, sintiéndose así identificados y siendo parte del consultorio.
 
-        Se implementó la metodología Kanban para la gestión eficiente de tareas y seguimiento del progreso en tiempo real, para el cliente y desarrollador.
+#### 12 - **Kanban:**
+
+- Se implementó la metodología Kanban para la gestión eficiente de tareas y seguimiento del progreso en tiempo real, para el cliente y desarrollador.
 
 ## Diseño (UI)
 
 -   [Wireframe Consultorio Figma](https://www.figma.com/file/vcTDl7mT9HCyEuFEqQ3X1Q/Flor-Consultorio-Oficial?type=design&node-id=3%3A97&mode=design&t=fcT0Zh85u2xPkyJW-1)
 
 ## Pagina Web
-No es el link oficial, debido a consideraciones de privacidad de mi cliente. (El video no es el original)
+
+No es el link oficial y algunos datos pueden ser ficticios, debido a consideraciones de privacidad de mi cliente.
 
 -   [Consultorio Kinesiologia](https://kinesiologia-eddev.netlify.app/)
