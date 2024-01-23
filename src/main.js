@@ -25,10 +25,10 @@ function scrollActive() {
 window.addEventListener('scroll', scrollActive);
 
 // Desactiva la funcion de descargar en el video
-document.addEventListener('DOMContentLoaded', function () {
+/* document.addEventListener('DOMContentLoaded', function () {
     var miVideo = document.getElementById('miVideo');
     miVideo.controlsList = 'nodownload noremoteplayback';
-});
+}); */
 
 // Genera en HTML el año actual, asi evito cambiarlo cada año.
 document.addEventListener('DOMContentLoaded', function () {
