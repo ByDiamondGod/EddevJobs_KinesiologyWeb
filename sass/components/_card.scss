@@ -91,11 +91,12 @@
     &__icon {
         width: 40px;
         height: 40px;
-        background-color: $secondary-color-2;
+        // background-color: $secondary-color-2;
         margin: 10px;
         border-radius: 999px;
         cursor: pointer;
         border: 0.2px solid $secondary-color-3;
+        transition: transform 0.2s ease-in-out;
 
         img {
             filter: invert(50%) sepia(10%) saturate(1970%) hue-rotate(57deg)
@@ -103,13 +104,11 @@
             text-align: center;
             margin: 7px auto 0;
             height: auto;
-            transition: transform 0.2s ease-in-out;
         }
-
-        img:hover {
-            transform: scale(1.1) skew(0);
-            transform-origin: bottom;
-        }
+    }
+    &__icon:hover {
+        transform: scale(1.1) skew(0);
+        transform-origin: bottom;
     }
 }
 
