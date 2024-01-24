@@ -78,7 +78,9 @@
         gap: 16px; */
 
     &__checking {
-        padding: 2rem;
+        // padding: 2rem;
+        margin-top: 1.8rem;
+        padding: 4rem 5rem;
         background-color: #fff;
         text-align: center;
         border-radius: 0 0 10px 10px;
@@ -103,6 +105,7 @@
         font-weight: 400;
         letter-spacing: 0.5px;
         cursor: pointer;
+        margin-top: 6px;
     }
 
     &__btn:hover {
@@ -114,6 +117,12 @@
 @media screen and (max-width: 500px) {
     .turnos {
         margin: 4rem 1rem;
+        &__checking {
+            margin-bottom: 2rem;
+            // padding: 2rem;
+            padding: 3rem 3rem;
+
+        }
     }
 
     .turnos .slider-frame {
@@ -127,6 +136,7 @@
     .turnos .slider-frame ul {
         animation: slide 40s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
     }
+
 
     @keyframes slide {
         0% {
