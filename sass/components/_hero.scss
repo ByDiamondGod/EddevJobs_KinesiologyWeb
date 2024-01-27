@@ -18,7 +18,7 @@
 }
 
 .main-image {
-    width: 300px;
+    width: 320px;
 }
 
 .hero {
@@ -80,7 +80,7 @@
         padding: 1rem 1.5rem;
         background-color: #fdfdfd;
         z-index: 10;
-        bottom: 3rem;
+        bottom: 4.3rem;
         border-radius: 10px;
         text-align: center;
         text-wrap: balance;
@@ -88,7 +88,7 @@
         font-size: 1.1rem;
     }
     &__image {
-        transform: scale(1.2);
+        //  transform: scale(1.2);
     }
 }
 
