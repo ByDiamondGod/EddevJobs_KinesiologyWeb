@@ -112,6 +112,47 @@
     }
 }
 
+.video-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+
+  &__video {
+    height: 450px;
+    width: 800px;
+    padding: .7rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.close-button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+  color: #111;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1018px) {
+    .tratamientos {
+        &__description {
+            font-size: clamp(14px, 1.4vw, 16px);
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .tratamientos {
         margin-bottom: 30px;
@@ -131,7 +172,6 @@
 
 @media screen and (max-width: 400px) {
     .tratamientos {
-        margin-bottom: 30px;
 
         &__body {
             display: flex;
