@@ -21,10 +21,10 @@
     }
 
     &__a {
-      color: #3f7228;
-      font-weight: 600;
-      font-size: 14px;
-      transition: transform 0.2s ease-in-out;
+        color: #3f7228;
+        font-weight: 600;
+        font-size: 14px;
+        transition: transform 0.2s ease-in-out;
     }
 
     &__a:hover {
@@ -35,9 +35,8 @@
 
 // Text
 .footer-copyright {
-
     &__p {
-      margin-top: 2rem;
+        margin-top: 2rem;
     }
 
     &__span {
@@ -51,8 +50,37 @@
     }
 }
 
+// cv
+.cv {
+    margin: 0 auto;
+    height: 100%;
+    min-height: 500px;
+    max-width: 1000px;
+    width: auto;
+    object-fit: contain;
+}
+
+.cv-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+
+.cv {
+    margin: 3rem auto 0;
+    width: 100%;
+    min-width: 350px;
+    max-width: 600px;
+    padding: 1rem 1.2rem 1rem 0.5rem;
+}
+
 @media screen and (max-width: 768px) {
-  .footer {
-    height: 240px;
-  }
+    .footer {
+        height: 240px;
+    }
 }
