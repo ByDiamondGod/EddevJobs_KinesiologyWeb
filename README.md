@@ -130,6 +130,10 @@ Listo para cargar contenido de manera rápida, incluso en conexiones de red lent
 
 - Compra de un hosting para garantizar disponibilidad 24/7.
 
+#### 22 - **Redirección: Status Code 301**
+
+- Preparado para redireccionar en www. o sin él
+
 ## Diseño (UI)
 
 -   [Wireframe Consultorio Figma](https://www.figma.com/file/vcTDl7mT9HCyEuFEqQ3X1Q/Flor-Consultorio-Oficial?type=design&node-id=3%3A97&mode=design&t=fcT0Zh85u2xPkyJW-1)
@@ -138,4 +142,4 @@ Listo para cargar contenido de manera rápida, incluso en conexiones de red lent
 
 <!-- No es el link oficial y algunos datos pueden ser ficticios, debido a consideraciones de privacidad de mi cliente. -->
 
--   [Consultorio Kinesiología](www.kinesiologiafv.com.ar)
+-   [Consultorio Kinesiología](https://www.kinesiologiafv.com.ar/)
