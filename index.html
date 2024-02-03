@@ -18,7 +18,7 @@
   <header class="header" id="header">
 
     <nav class="nav container">
-      <a href="#inicio">
+      <a href="#inicio" aria-label="Logo FV">
         <img class="nav__logo" src="/img/webp/logoFV.webp" alt="logoFV">
       </a>
 
@@ -77,7 +77,7 @@
             integral. Mi enfoque se centra en una kinesiología en permanente evolución.
           </p>
           <div class="hero__button-wrap">
-            <a href="https://turnosconqr.com/lic__florencia_vazquez" target="_blank" rel="noreferrer">
+            <a href="https://turnosconqr.com/lic__florencia_vazquez" target="_blank" rel="noopener noreferrer" aria-label="Saca turno">
               <button class="hero__button hero__button--magent">TURNO</button>
             </a>
             <a href="#sesiones">
@@ -277,7 +277,7 @@
             <div class="turnos__checking">
               <h3 class="turnos__description">Reserva ahora</h3>
               <div>
-                <a href="https://turnosconqr.com/lic__florencia_vazquez" target="_blank" rel="noreferrer">
+                <a href="https://turnosconqr.com/lic__florencia_vazquez" target="_blank" rel="noopener noreferrer" aria-label="Saca turno">
                   <button class="turnos__btn">TURNO</button>
                 </a>
                 <!--!! deberia ser un a con un span, no un button, no tiene sentido. un button seria para un evento onclick -->
@@ -357,18 +357,18 @@
 
   <footer class="footer">
     <ul class="footer__ul">
-      <a href="https://rpgl.org/ar/profesional/10751/Florencia_Victoria_Vazquez" class="footer__a" target="_blank" rel="noreferrer">
+      <a href="https://rpgl.org/ar/profesional/10751/Florencia_Victoria_Vazquez" class="footer__a" target="_blank" rel="noopener noreferrer" aria-label="RPG pagina oficial">
         <li class="footer__li">
           RPG
         </li>
       </a>
-        <a class="footer__a" onclick="mostrarVideo('cvPreview')">
+        <div class="footer__a" onclick="mostrarVideo('cvPreview')">
           <li class="footer__li">
             CV
           </li>
-        </a>
+        </div>
       <a href="https://microelectrolisis.com/search-results?categorias%5B%5D=5&categorias%5B%5D=4&apellido=&pais=Argentina&provincia=Buenos+Aires&ciudad=Castelar"
-        class="footer__a" target="_blank" rel="noreferrer">
+        class="footer__a" target="_blank" rel="noopener noreferrer" aria-label="MEP pagina oficial">
         <li class="footer__li">
           MEP
         </li>
@@ -377,7 +377,7 @@
     <p class="footer-copyright__p" id="copyright">
       <span class="footer-copyright__span"></span>
       <span class="footer-copyright__span footer-copyright__span--color">
-        <a href="https://bydiamondgod.github.io/" target="_blank" rel="noreferrer"></a>
+        <a href="https://www.eddev.com.ar" target="_blank" rel="noopener noreferrer" aria-label="Desarrollador de la página"></a>
       </span>
     </p>
   </footer>
