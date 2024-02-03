@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'copyright',
     ).innerHTML = `<span class="footer-copyright__span"> © ${year} ∾ </span>
                 <span class="footer-copyright__span footer-copyright__span--color">
-                <a href="https://bydiamondgod.github.io/" target="_blank"> Eddev </a>
+                <a href="https://www.eddev.com.ar" target="_blank" rel="noopener noreferrer" aria-label="Desarrollador de la página"> Eddev </a>
                 </span>`;
 });
 
