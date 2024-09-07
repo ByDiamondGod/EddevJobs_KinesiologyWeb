@@ -34,5 +34,21 @@
       color: #222;
       letter-spacing: .4px;
     }
+
+      @media screen and (max-width: 500px) {
+        .section-main {
+          &__title {
+            margin-top: 6rem;
+          }
+      }
+    }
+
+    @media screen and (max-width: 350px) {
+      .section-main {
+        &__title {
+          margin-top: 18rem;
+        }
+      }
+    }
   }
 }
